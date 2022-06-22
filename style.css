@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10rem;
+}
+
+button {
+    padding: .5rem;
+    border-radius:  1vh;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: 
+        linear-gradient(60deg, #d15220, #13b456)
+    ;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    margin: .5rem;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: 
+        linear-gradient(60deg, #b16ec4, #5f97b9)
+    ;
+}
+
+label.red {
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+} 
+
+label.green {
+    width: 2rem;
+    height: 2rem;
+    background-color: green;
+}
+
+label.blue {
+    width: 2rem;
+    height: 2rem;
+    background-color: blue;
+}
+
+
+
